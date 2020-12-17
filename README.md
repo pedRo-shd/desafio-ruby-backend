@@ -1,3 +1,5 @@
+### [Veja a extensão dessa documentação](https://github.com/pedRo-shd/desafio-ruby-backend/tree/master/parse_cnab_import#import-and-parsers-to-record-cnab-file-of-financial-transactions-by-store) para rodar o projeto do desafio proposto.
+
 # Desafio programação - para vaga Back-end
 
 Por favor leiam este documento do começo ao fim, com muita atenção.
