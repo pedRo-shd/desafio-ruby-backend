@@ -11,12 +11,20 @@ RSpec.describe Stores::AccountBalanceBusiness do
 
   let(:store_one) { Store.first }
 
+  let(:financial_transactions) do
+      FinancialTransaction.joins(
+        :store
+      ).includes(
+        :store
+      ).where(store_id: store_one.id)
+  end
+
   let(:totalized) do
-    described_class.new(store_one).totalized
+    described_class.new(financial_transactions: financial_transactions).totalized
   end
 
   it "BAR DO JOÃO Store should has x totalized" do
-    expect(FinancialTransaction.where(store_id: 1).sum(:amount)).to eql(
+    expect(FinancialTransaction.where(store_id: store_one).sum(:amount)).to eql(
       totalized
     )
   end
