@@ -1,0 +1,9 @@
+<% flash.each do |type, msg| %>
+  <div id="notice">
+    <%= msg %>
+  </div>
+<% end %>
+
+<h1>Enviar Arquivo CNAB</h1>
+
+<%= render 'form' %>
