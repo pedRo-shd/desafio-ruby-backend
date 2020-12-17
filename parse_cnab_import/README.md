@@ -13,6 +13,12 @@ Dependencies:
 git@github.com:pedRo-shd/desafio-ruby-backend.git
 ```
 
+* Go to the project
+```
+cd parse_cnab_import
+```
+
+
 * Run the commands below, after installing Dependencies:
 ```
 bundle install
