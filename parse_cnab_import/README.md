@@ -10,12 +10,12 @@ Dependencies:
 
 * Clone the repository:
 ```
-git@github.com:pedRo-shd/desafio-ruby-backend.git
+git clone git@github.com:pedRo-shd/desafio-ruby-backend.git
 ```
 
 * Go to the project
 ```
-cd parse_cnab_import
+cd desafio-ruby-backend/parse_cnab_import/
 ```
 
 
@@ -46,7 +46,7 @@ bundle exec rails s
 ## STEP to upload and see operations transactions by store
 * 1 - Access Page Root showing the list of stores with a button that redirects to the CNAB Upload
 ```
-localhost:3000
+http://localhost:3000/
 ```
 
 * 2 - Click button Import CNAB
@@ -55,8 +55,6 @@ localhost:3000
 
 * 4 - After upload and saving, the application will redirect to the list of Stores
 
-* 5 - Now you can clock to view each store's financial transactions
-
-* 6 - Details Store with operations financial transactions and total account balance
+* 5 - Now you can click to view each store's financial transactions and Details Store with operations financial transactions and total account balance
 
 ---
